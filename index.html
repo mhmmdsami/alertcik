@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Alertcik</title>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <style>
+    body{
+        background-color: #ffffff;
+        margin: auto;
+        padding:0px;
+    }
+
+    .alertcik{
+        width: 400px;
+        font-family: verdana;
+        border:1px solid #f2f2f2;
+        font-size: 10pt;
+        position: absolute;
+        border-radius: 2px 2px 6px 6px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 9px 0px rgba(119, 119, 119, 0.75);
+        -moz-box-shadow: 0px 0px 9px 0px rgba(119, 119, 119, 0.75);
+        -webkit-box-shadow: 0px 0px 9px 0px rgba(119, 119, 119, 0.75);
+        top:200px;
+        left:446px;
+        height: 177px;
+        background-color: #ffffff;
+    }
+
+    .alertcik-header{
+        height: 30px;
+        font-size: 11pt !important;
+        border-bottom: 1px solid #e6e6e6;
+        padding: 10px;
+        background-color: #f2f2f2;
+    }
+
+    .alertcik-body{
+        padding: 10px;
+
+    }
+
+    .alertcik-header div {
+        height: 100%;
+    }
+
+    .alertcik-close :hover
+    {
+        cursor:pointer;
+    }
+
+    .alertcik-center
+    {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+
+</style>
+    <script src="js/alercik.js"></script>
+    <script>
+        var alertcik = new Alertcik();
+    </script>
+</head>
+<body>
+    <input type="button" value="Alert !" onclick="alertcik.alert();">
+</body>
+</html>
