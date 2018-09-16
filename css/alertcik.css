@@ -1,36 +1,52 @@
-body{
-	background-color: #ffffff;
-	margin: auto;
-	padding:0px; 
+.alertcik {
+  width: 450px;
+  height: 200px;
+  border: 1px solid #d9d9d9;
+  border-radius:23px;
+  font-size: 16px;
+  font-family: Verdana;
 }
 
-#alertcikPanel{
-	width: 400px;
-	font-family: verdana;
-	border:1px solid #f2f2f2;
-	font-size: 10pt;
-	position: absolute;
-	border-radius: 2px 2px 6px 6px;
-	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-		box-shadow: 0px 0px 9px 0px rgba(119, 119, 119, 0.75);
--moz-box-shadow: 0px 0px 9px 0px rgba(119, 119, 119, 0.75);
--webkit-box-shadow: 0px 0px 9px 0px rgba(119, 119, 119, 0.75);
-	top:200px;
-	left:446px;
-	height: 177px;
-	background-color: #ffffff;
+.alertcik hr {
+  width: 430px;
+  border:1px solid #d9d9d9;
 }
 
-#alertcikBaslik{
-	width: 95%;
-	height: 30px;
-	font-size: 11pt !important;
-	border-bottom: 1px solid #e6e6e6;
-	padding: 10px;	
-	background-color: #f2f2f2;
+.alertcik-header {
+  width: 420px;
+  height : 20px;
+  float: left;
+  margin-top: 23px;
+  text-indent: 1em;
 }
 
-#alertcikIcerik{
-	padding: 10px;	
+.alertcik-body {
+  text-indent: 1em;
+  height : 90px;
+  color:#333;
+  font-family:verdana;
+  font-size:10pt;
+}
+
+.alertcik-buttons {
+  height:20px;
+}
+
+.alertcik-buttons span {
+  width:90px;
+  background-color:#FFC107;
+  height:22px;
+  border-radius:23px;
+  font-size:11pt;
+  padding:3px;
+  color:#333333;
+  text-align:center;
+  border: 1px solid #d9d9d9;
+  margin-right: 10px;
+  float: right;
+}
+
+.alertcik-close {
+   margin-top: 20px;
 
 }
