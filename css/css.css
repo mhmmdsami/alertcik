@@ -1,0 +1,73 @@
+html, body {
+    background-color: #ffffff;
+    margin: auto;
+    padding:0px;
+}
+
+.alertcik {
+    width: 450px;
+    height: 200px;
+    border: 1px solid #d9d9d9;
+    border-radius:23px;
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+.alertcik.center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.alertcik hr {
+    width: 430px;
+    border:1px solid #d9d9d9;
+}
+
+.alertcik-header {
+    width: 420px;
+    height : 20px;
+    float: left;
+    margin-top: 23px;
+    text-indent: 1em;
+}
+
+.alertcik-body {
+    text-indent: 1em;
+    height : 90px;
+    color:#333;
+    font-family:verdana;
+    font-size:10pt;
+}
+
+.alertcik-buttons {
+    height:20px;
+}
+
+.alertcik-buttons span {
+    width:90px;
+    background-color:orange;
+    height:22px;
+    border-radius:23px;
+    font-size:11pt;
+    padding:3px;
+    text-align:center;
+    border: 1px solid #d9d9d9;
+    margin-right: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.alertcik-buttons span:hover{
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.alertcik-close {
+    margin-top: 20px;
+    cursor: pointer;
+  
+}
+
